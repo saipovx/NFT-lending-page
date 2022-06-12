@@ -1,0 +1,224 @@
+@media (max-width:1400px) {
+    .intro {
+        background: none;
+    }
+}
+
+@media (max-width:1137px) {
+    .intro__title {
+        text-align: center;
+    }
+    .intro__subtitle {
+        text-align: center;
+    }
+    .intro__inner {
+        margin: 0;
+    }
+    .intro__buttons {
+        justify-content: center;
+    }
+    .intro__preview {
+        justify-content: center;
+    }
+    .header {
+        padding: 30px;
+    }
+    .header__buttons {
+        display: none;
+    }
+    .feature {
+        min-height: 800px;
+    }
+    .feature__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature__img {
+        margin: 0 0 100px 0;
+    }
+    .feature__text {
+        margin: 0 0 100px 0;
+        text-align: center;
+    }
+    .partners {
+        margin-top: 50px;
+        position: relative;
+    }
+    .gallery__inner {
+        flex-direction: column-reverse;
+    }
+    .gallery__text {
+        margin: 0;
+        text-align: center;
+    }
+    .business__inner {
+        flex-direction: column-reverse;
+    }
+    .business__text {
+        margin: 0;
+        text-align: center;
+    }
+    .business__graphic {
+        margin-bottom: 50px;
+    }
+    .feature__text-item:last-child {
+        margin-right: 0;
+    }
+    .footer {
+        background: none;
+    }
+}
+
+@media (max-width:922px) {
+    .about__item {
+        width: 50%;
+    }
+    .section__title {
+        font-size: 2rem;
+    }
+    .section__subtitle {
+        width: 50%;
+        font-size: 0.9rem;
+        margin: 0 auto;
+        margin-bottom: 50px
+    }
+    .footer__head {
+        flex-direction: column;
+    }
+    .social {
+        margin-top: 30px;
+    }
+    .faq__input {
+        max-width: 216px;
+    }
+    .get {
+        background-size: 150%;
+    }
+    .footer {
+        padding: 0;
+    }
+}
+
+@media (max-width:689px) {
+    .header.fixed .nav {
+        margin-top: 75px;
+    }
+    .nav {
+        display: none;
+        margin-top: 100px;
+        margin-right: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgba(34, 34, 34, .9);
+        z-index: 1;
+    }
+    .nav::before {
+        content: "";
+        width: 26px;
+        height: 26px;
+
+        background-color: rgba(34, 34, 34, 0.9);
+
+        position: absolute;
+        right: 3.9%;
+        top: -3%;
+        z-index: 0;
+
+        transform: rotate(45deg);
+    }
+    .nav__link {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 30px;
+        border-radius: 0;
+    }
+    .nav-toggle {
+        margin-right: 10px;
+        display: block;
+        align-items: center;
+    }
+    .nav.active {
+        display: block;
+    }
+    .header {
+        justify-content: start;
+    }
+    .intro__title {
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+    .intro__subtitle {
+        font-size: 0.85rem;
+    }
+    .section__title {
+        font-size: 2rem;
+    }
+    .pricing__items {
+        flex-wrap: wrap;
+    }
+    .prising__item {
+        margin-bottom: 50px;
+        width: 50%;
+    }
+    .gallery {
+        padding: 50px 0;
+    }
+    .gallery__title {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+    .gallery__subtitle {
+        font-size: 0.85rem;
+        line-height: 1.1;
+    }
+    .about__item {
+        width: 100%;
+    }
+    .faq {
+        padding: 0;
+        background: none;
+    }
+    .faq__title {
+        font-size: 1.5rem;
+    }
+    .faq__subtitle {
+        font-size: 0.8rem;
+    }
+    .faq__inner {
+        padding: 36px 80px 30px 80px;
+    }
+    .input {
+        padding: 10px 0 10px 10px;
+    }
+    .faq__button {
+        padding: 18px 20px;
+    }
+    .business {
+        padding: 50px;
+        background: none;
+    }
+    .business__graphic img {
+        width: auto;
+    }
+    .business__title {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .business__subtitle {
+        font-size: 0.7rem;
+        line-height: 1.2;
+    }
+    .footer__column {
+        margin: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .intro__button {
+        padding: 10px 22px;
+    }
+    .preview__title {
+        font-size: 0.8;
+    }
+}
